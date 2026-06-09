@@ -1,0 +1,228 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Darshan H Naik | Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #f4f6f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #1f2937;
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        header h1 {
+            font-size: 3rem;
+        }
+
+        header p {
+            margin-top: 10px;
+            font-size: 1.2rem;
+        }
+
+        nav {
+            background: #111827;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 50px 10%;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            color: #1f2937;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skill {
+            background: #2563eb;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 20px;
+        }
+
+        .project {
+            margin-bottom: 15px;
+        }
+
+        footer {
+            background: #1f2937;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        button {
+            background: #2563eb;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #1d4ed8;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Darshan H Naik</h1>
+        <p>Student | Programmer | Technology Enthusiast</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <div class="card">
+            <h2>About Me</h2>
+            <p>
+                Hello! I am Darshan H Naik, a passionate student interested in
+                programming, software development, and innovative technologies.
+                I enjoy building projects and learning new skills that help solve
+                real-world problems.
+            </p>
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="card">
+            <h2>Education</h2>
+            <p><strong>Degree:</strong> B.Tech</p>
+            <p><strong>Branch:</strong> Computer Science Engineering</p>
+            <p><strong>College:</strong> Add Your College Name</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="card">
+            <h2>Skills</h2>
+
+            <div class="skills">
+                <div class="skill">C</div>
+                <div class="skill">C++</div>
+                <div class="skill">Python</div>
+                <div class="skill">HTML</div>
+                <div class="skill">CSS</div>
+                <div class="skill">JavaScript</div>
+                <div class="skill">IoT</div>
+                <div class="skill">Problem Solving</div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="card">
+            <h2>Projects</h2>
+
+            <div class="project">
+                <h3>2D Graphics Editor</h3>
+                <p>
+                    Developed a graphics editor in C using a 2D array to draw
+                    circles, rectangles, lines, and triangles.
+                </p>
+            </div>
+
+            <div class="project">
+                <h3>IoT Water Saver System</h3>
+                <p>
+                    Built an IoT-based solution to reduce water wastage using
+                    sensors and automation.
+                </p>
+            </div>
+
+            <div class="project">
+                <h3>Stock Trading Application</h3>
+                <p>
+                    Developed modules for user authentication, stock trading,
+                    portfolio management, and analytics.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="card">
+            <h2>Contact</h2>
+
+            <p>Email: yourmail@example.com</p>
+            <p>Phone: +91 XXXXXXXXXX</p>
+            <p>GitHub: github.com/yourusername</p>
+            <p>LinkedIn: linkedin.com/in/yourprofile</p>
+
+            <br>
+
+            <button onclick="showMessage()">
+                Say Hello
+            </button>
+
+            <p id="msg"></p>
+
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Darshan H Naik | Portfolio Website</p>
+    </footer>
+
+    <script>
+        function showMessage() {
+            document.getElementById("msg").innerHTML =
+                "Thank you for visiting my portfolio!";
+        }
+    </script>
+
+</body>
+
+</html>
+```
